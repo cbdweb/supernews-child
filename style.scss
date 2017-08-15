@@ -1,0 +1,39 @@
+/*
+ Theme Name:   Super News Child
+ Theme URI:    http://cbdweb.net
+ Description:  Super News Child Theme
+ Author:       Nik Dow
+ Author URI:   http://cbdweb.net
+ Template:     supernews
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  super-news-child
+*/
+header {
+    div.site-logo {
+        margin-top: 10px;
+        p.site-title {
+            margin-bottom: 10px;
+            a {
+                font: normal 1.2em Georgia,sans-serif;
+                color: #333;
+                text-transform: none;                
+            }
+        }
+        p.site-description {
+            font: normal 0.9em Georgia,sans-serif;
+            line-height: 1.5em;
+            padding: 0.2em 0 1.2em;
+            text-transform: none;
+            a {
+                text-transform: none;
+                font: normal 0.9em Georgia,sans-serif;
+            }
+        }
+    }
+} 
+.wrapper {
+    width: 95%
+}

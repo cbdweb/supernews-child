@@ -102,9 +102,11 @@ function supernews_header() {
                                     </p>
                                 <?php endif;
                                 if ( 'title-and-tagline' == $supernews_customizer_all_values['supernews-header-id-display-opt'] ):
-                                    $description = get_bloginfo( 'description', 'display' );
+                                    $description = get_bloginfo( 'description', 'raw' );
                                     if ( $description || is_customize_preview() ) : ?>
-                                        <p class="site-description"><?php echo implode( "<br/>", explode( ";", esc_html( $description ) ) ); ?></p>
+                                    <p class="site-description"><?php echo $description; ?><br/>
+                                        ph (03) 5759 3554 email: <a href="mailto:manager@kongoola.com">manager@kongoola.com</a>
+                                    </p>
                                     <?php endif;
                                 endif;
                             endif; ?>
