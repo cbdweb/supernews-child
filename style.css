@@ -11,6 +11,12 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  super-news-child
 */
+.wrapper {
+  width: 95%; }
+
+article.post, article.page {
+  box-shadow: none; }
+
 header div.site-logo {
   margin-top: 10px; }
   header div.site-logo p.site-title {
@@ -28,7 +34,7 @@ header div.site-logo {
       text-transform: none;
       font: normal 0.9em Georgia,sans-serif; }
 
-.wrapper {
-  width: 95%; }
+footer .edit-link {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
