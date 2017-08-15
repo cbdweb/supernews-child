@@ -22,7 +22,15 @@ article {
     }
 }
 
+
 header {
+    div.header-wrapper div.header-main-menu .acmethemes-nav {
+        float: none;
+        ul>li:last-child {
+            float: right;
+            margin-right: 20px;
+        }
+    }    
     div.site-logo {
         margin-top: 10px;
         p.site-title {
