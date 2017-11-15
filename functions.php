@@ -177,4 +177,16 @@ function supernews_header() {
         <!-- #masthead -->
     <?php
     }
+    add_action('wp_head', 'wpb_add_googleanalytics');
+    function wpb_add_googleanalytics() { ?>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101931917-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-101931917-2');
+    </script>
+ 
+    <?php }
 ?>
