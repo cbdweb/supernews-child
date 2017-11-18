@@ -22,6 +22,8 @@ header div.header-wrapper div.header-main-menu .acmethemes-nav {
   header div.header-wrapper div.header-main-menu .acmethemes-nav ul > li:last-child {
     float: right;
     margin-right: 20px; }
+header div.top-header-section {
+  display: none; }
 header div.site-logo {
   margin-top: 10px; }
   header div.site-logo p.site-title {
