@@ -1,4 +1,6 @@
 <?php
+add_filter( 'the_generator', '__return_empty_string' );
+
 function my_theme_enqueue_styles() {
 
     $parent_style = 'SuperNews';
@@ -94,11 +96,11 @@ function supernews_header() {
                             else:/*else is title-only or title-and-tagline*/
                                 if ( is_front_page() && is_home() ) : ?>
                                     <h1 class="site-title">
-                                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+                                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Kongoola<br/>Ski Club Inc.</a>
                                     </h1>
                                 <?php else : ?>
                                     <p class="site-title">
-                                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+                                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Kongoola<br/>Ski Club Inc.</a>
                                     </p>
                                 <?php endif;
                                 if ( 'title-and-tagline' == $supernews_customizer_all_values['supernews-header-id-display-opt'] ):
