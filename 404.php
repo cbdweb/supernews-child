@@ -18,7 +18,7 @@ get_header(); ?>
 
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'supernews' ); ?></p>
-					<p>Members can login to see private content: return to the home page and login below the Facebook feed</p>
+					<p>Members can login to see private content: use the login form on the right, below the Facebook feed.</p>
 
 					<?php get_search_form(); ?>
 
