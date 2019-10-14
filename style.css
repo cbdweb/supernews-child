@@ -41,7 +41,7 @@ header div.site-logo {
       text-transform: none;
       font: normal 0.9em Georgia,sans-serif; }
 
-.not-found #primary, error-404 #primary {
+.not-found #primary, .error-404 #primary {
   width: inherit; }
 
 footer .edit-link {
