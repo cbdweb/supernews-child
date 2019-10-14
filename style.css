@@ -41,8 +41,8 @@ header div.site-logo {
       text-transform: none;
       font: normal 0.9em Georgia,sans-serif; }
 
-.error-404 #primary {
-  width: 70% !important; }
+.error404 #primary {
+  width: inherit; }
 
 footer .edit-link {
   display: none; }
