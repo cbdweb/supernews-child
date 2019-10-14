@@ -42,7 +42,7 @@ header div.site-logo {
       font: normal 0.9em Georgia,sans-serif; }
 
 .not-found #primary, .error-404 #primary {
-  width: inherit; }
+  width: inherit !important; }
 
 footer .edit-link {
   display: none; }
